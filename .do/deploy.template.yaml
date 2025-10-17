@@ -1,0 +1,8 @@
+spec:
+  name: sample-bun
+  services:
+  - environment_slug: bun
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-bun.git
+    name: sample-bun

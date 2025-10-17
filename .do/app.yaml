@@ -1,0 +1,8 @@
+name: sample-bun
+services:
+- environment_slug: bun
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: digitalocean/sample-bun
+  name: sample-bun
